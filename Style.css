@@ -1,0 +1,91 @@
+body,html
+{
+	margin:0;
+    padding: 0;
+  	color:black;
+    font-size: 12pt;
+    font-family: Calibri;
+    background-image:url('bg.png');
+}
+
+div, table
+{
+	text-align:center;
+}
+
+.navbar {
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	background-color: #8b0194;
+}
+
+.navbar a {
+	float: left;
+	color:white;
+	display: block;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color:black;
+	background-color:white;
+}
+
+.tbl
+{
+	margin-top:40px;
+	font-size:16px;
+	text-align:left;
+}
+
+.btn_orange
+{
+	background-color:darkorange; 
+	border:none; 
+	height:24px;
+	color:White;
+	font-size:14px;
+}
+
+.btn_submit
+{
+	background-color:green; 
+	border:none; 
+	color:White;
+	font-size:14px;
+	padding: 4px 15px;
+	border-radius: 2px;
+}
+
+.btn_delete
+{
+	background-color:#c90000; 
+	border:none; 
+	height:24px;
+	color:White;
+	font-size:12px;
+}
+
+input, select, textarea
+{
+	padding: 4px 6px;
+	border-radius: 2px;
+	border:solid 1px #5e4533;
+}
+
+.mygrid
+{
+	width:94%;
+	margin-top:40px;
+	font-size:16px;
+	font-family:Cambria;
+	font-weight:bold;
+	border-collapse:collapse;
+}
+
+th {
+    background-color: #a80000;
+    color: white;
+}
